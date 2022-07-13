@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+    padding: 1rem;
+}
+
+body {
+    background-color: rgb(43, 42, 42);
+}
+
+form {
+    margin: 3rem auto;
+    background-color:rgb(240, 241, 166);
+    padding: 1rem;
+    width: 50rem;
+    height: 6.25rem;
+    border-radius: 10px;
+    height: 100%;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+label {
+    display: block;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+#user-input {
+    display: flex;
+}
+
+input {
+    width: 25rem;
+    height: 1.5rem;
+}
+
+#user-input p {
+    margin:  0.5rem 3rem;
+}
+
+#user-input p #count {
+    color: rgb(202, 106, 106);
+}
+
+button {
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(223, 205, 43);
+}
+
+button:hover {
+    background-color: rgb(235, 214, 26);
+}
